@@ -37,7 +37,8 @@
                 else{
                   arrayOfFirebase = arrayOfJs;
                 }
-                
+                content.innerHTML = " " ;
+
                 for(i = 0; i < arrayOfFirebase.length; i++){
 
                   let p = document.createElement('p');
@@ -55,7 +56,7 @@
                                
 
                                
-                               content.innerHTML = " " ;
+                             content.innerHTML = " " ;
 
                            for(i = 0; i < arrayOfFirebase.length; i++){
 
@@ -68,17 +69,4 @@
 
                            
               }
-            
-              // window.onload =  load();
-              //   setTimeout(load,2000);
-              // function load() {
-              //   console.log("erty");
-              //   for(i = 0; i < arrayOfFirebase.length; i++){
-
-              //                 let p = document.createElement('p');
-              //                 p.innerHTML = arrayOfFirebase[i];
-              //                 content.appendChild(p);
-                            
-              //              }
-              // }
 
