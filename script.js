@@ -66,7 +66,7 @@
                             
                            }
                            
-
-                           
+                            
+                           inputid.value = "";
               }
 
