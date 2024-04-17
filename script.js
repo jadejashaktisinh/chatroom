@@ -62,11 +62,8 @@ btn.onclick = function () {
 
   for (i = 0; i < arrayOfFirebase.length; i++) {
 
-    let span = document.createElement('span');
     let p = document.createElement('p');
-    content.appendChild(span);
-    span.innerHTML = arrayOfFirebase[i].user;
-    p.innerHTML = arrayOfFirebase[i].input;
+    p.innerHTML = '<span>' + arrayOfFirebase[i].user +  '</span>'  + arrayOfFirebase[i].input;
     content.appendChild(p);
   }
 
