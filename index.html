@@ -1,47 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charoom</title>
+    <!-- Design by foolishdeveloper.com -->
+    <title>Glassmorphism login Form Tutorial in html css</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style2.css">
 </head>
+
 <body>
-        <div style="display: flex;">
-            
-                 <div class="left"></div>
-                 <div id="container">
-                  <div class="steam" id="steam1"> </div>
-                  <div class="steam" id="steam2"> </div>
-                  <div class="steam" id="steam3"> </div>
-                  <div class="steam" id="steam4"> </div>
-                
-                  <div id="cup">
-                    <div id="cup-body">
-                      <div id="cup-shade"></div>
-                    </div>
-                    <div id="cup-handle"></div>
-                  </div>
-                
-                  <div id="saucer"></div>
-                
-                  <div id="shadow"></div>
-                </div>
-                 <div class="right">
-                    <div class="content" id="content">
-                   
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <form>
+        <h3>Login Here</h3>
 
+        <label for="username">Username</label>
+        <input type="text" placeholder="Email or Phone" id="username">
 
-                    </div>
-                      
-                    <input type="text" id="inputid">
-                    <button id="btn">></button>
-                 </div>
+        <label for="password">Password</label>
+        <input type="password" placeholder="Password" id="password">
+
+        <button>Log In</button>
+        <div class="social">
+            <div class="go" id="googlebtn"><i class="fab fa-google"></i> Google</div>
         </div>
-        
-         <script type="module" src = "script.js">
-        </script>
+    </form>
+
+    <script type="module" src="script1.js"></script>
 
 </body>
+
 </html>
